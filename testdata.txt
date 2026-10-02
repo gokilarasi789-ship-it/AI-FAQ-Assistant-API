@@ -1,0 +1,31 @@
+npm install
+
+npm run dev
+
+http://localhost:5000
+
+register
+http://localhost:5000/api/auth/register
+{
+  "name": "John Doe",
+  "email": "john@gmail.com",
+  "password": "123456"
+}
+
+login
+http://localhost:5000/api/auth/login
+{
+  "email": "john@gmail.com",
+  "password": "123456"
+}
+
+profile
+http://localhost:5000/api/auth/profile
+
+fags
+POST http://localhost:5000/api/faqs
+{
+  "question": "What is Node?",
+  "answer": "Node is a JavaScript runtime.",
+  "category": "Technology"
+}
